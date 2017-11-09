@@ -225,6 +225,3 @@ It looks like an Imperial cruiser. Our passengers must be hotter than I thought.
 
 Stay sharp! There are two more coming in, they're going to try to cut us off. Why don't you outrun them? I thought you said this thing was fast. Watch your mouth, kid, or you're going to find yourself floating home. We'll be safe enough once we make the jump to hyperspace. Besides, I know a few maneuvers. We'll lose them! Here's where the fun begins!
 
-
-
-{{%excerpt-include filename="testmorethings.md" panel="this is an excerpt, pulled from another file" /%}}
