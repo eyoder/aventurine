@@ -62,27 +62,12 @@ Hold tight! Switch your deflectors on. Double front!
 
 We should be able to see it by now. Keep your eyes open for those fighters! There's too much interference! Red Five, can you [see them from where you are](#standard-headings-and-paragraphs)? No sign of any...wait! Coming in point three five. I see them. I'm in range. Target's coming up! Just hold them off for a few seconds.
 
-### mermaid diagram
-
-{{<mermaid>}}
-sequenceDiagram
-    participant Customer
-    participant Partner
-    Customer->>Partner: Hello Partner, can I redeem a Thermostat offer?
-    Partner->>Aventurine: Hello Aventurine, you ready for this?
-    loop check inventory
-        Aventurine->>Aventurine: How we doing?
-    end
-    Note right of Aventurine: We have <br/>inventory...!
-    Aventurine-->>Partner: We're good to go!
-    Partner-->>Aventurine: Jolly good!
-    Aventurine->>Customer: It's on the way!
-{{< /mermaid >}}
-
 
 #### images
 
-![image](http://4.bp.blogspot.com/-fNb_bQ73BtY/Ukxu3SJ5E_I/AAAAAAAAK3M/o5FX1b6FHXo/s1600/Menace+42.png)
+50% width
+
+![image](http://4.bp.blogspot.com/-fNb_bQ73BtY/Ukxu3SJ5E_I/AAAAAAAAK3M/o5FX1b6FHXo/s1600/Menace+42.png?width=50%)
 
 
 #### alerts
