@@ -16,13 +16,15 @@
 
 	{{ if not .Date.IsZero }}
   	<div class="date">
-  	    <i class='fa fa-calendar'></i> {{ .Date.Format "02/01/2006" }}
+  	    <i class='fa fa-calendar'></i> {{ .Date.Format "Jan 2006" }}
   	</div>
   	{{end}}
 
   	<div class="github-link">
-  		<a href="{{ .Site.Params.editURL }}{{ replace .File.Dir "\\" "/" }}{{ .File.LogicalName }}" target="blank"><i class="fa fa-code-fork"></i>
+  		<!--
+		<a href="{{ .Site.Params.editURL }}{{ replace .File.Dir "\\" "/" }}{{ .File.LogicalName }}" target="blank"><i class="fa fa-code-fork"></i>
         {{T "Edit-this-page"}}</a>
+		-->
     </div>
   </aside>
   <aside class="chevrons">
