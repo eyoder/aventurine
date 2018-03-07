@@ -15,9 +15,9 @@ No sign of any...wait! Coming in point three five. I see them. I'm in range. Tar
 <!--more-->
 
 Keep your eyes open for those fighters! There's too much interference! Red Five, can you see them from where you are? No sign of any...wait! Coming in point three five. I see them. I'm in range. Target's coming up! Just hold them off for a few seconds.  
-[Learn more about another thing &gt;]({{< relref "testmorethings.md" >}})
+[Learn more about another thing - link with relref shortcode &gt;]({{< relref "testmorethings.md" >}})
 
-[Learn more about this top level page &gt;](/test)
+[Learn more about this top level page - link with md syntax &gt;](/test)
 
 
 ## h2 heading
@@ -148,6 +148,36 @@ SO. VERY. AWESOME.<br />
 SO. VERY. AWESOME.<br />
 SO. VERY. AWESOME.<br />
 {{% /expand%}}
+
+
+### codeblock with backticks
+
+```html
+
+<p>What are you doing hiding there? It wasn&rsquo;t my fault, sir. Please don&rsquo;t deactivate me. I told him not to go, but he&rsquo;s faulty, malfunctioning, kept babbling on about his mission. </p>
+
+<h2 id="toc_0">Oh, no!</h2>
+
+<p>That R2 unit has always been a problem. 
+These astro-droids are getting quite out of hand. Even I can&rsquo;t understand their logic at times. How could I be so stupid? He&rsquo;s nowhere in sight. </p>
+
+<ul>
+<li>Blast it! </li>
+<li>Pardon me, sir, but couldn&rsquo;t we go after him?     * It&rsquo;s too dangerous with all the Sandpeople around. 
+
+<ul>
+<li>We&rsquo;ll have to wait until morning. </li>
+</ul></li>
+<li><p>Luke, I&rsquo;m shutting the power down for the night. All right, I&rsquo;ll be there in a few minutes. </p></li>
+</ul>
+
+<ol>
+<li>Boy, am I gonna get it. </li>
+<li>You know that little droid is going to cause me a lot of trouble. </li>
+<li>Oh, he excels at that, sir.</li>
+</ol>
+```
+
 
 
 ### slide
