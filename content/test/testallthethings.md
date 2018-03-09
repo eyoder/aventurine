@@ -247,49 +247,6 @@ curl https://integration.store.nest.com/v1/bulk/PARTNERNAME/orders/BATCH_ID  \
 {{< /highlight >}}
 
 
-
-### slide
-
-{{<revealjs theme="sky" progress="true" controls="true" transition="fade" keyboard="true">}}
-
-# In the morning
-
-___
-
-
-## Getting up
-
-- Turn off alarm
-- Get out of bed
-
-___
-
-## Breakfast
-
-- Eat eggs
-- Drink coffee
-
----
-
-# In the evening
-
-___
-
-## Dinner
-
-- Eat spaghetti
-- Drink wine
-
-___
-
-## Going to sleep
-
-- Get in bed
-- Count sheep
-
-{{</revealjs>}}
-
-
 ## standard headings and paragraphs
 
 ### h3 heading
