@@ -150,33 +150,101 @@ SO. VERY. AWESOME.<br />
 {{% /expand%}}
 
 
-### html codeblock with backticks
+
+### test using backtick code fence {#back}
+
+should use Chroma instead of Pygments
+
+### api example
+
+```curl
+https://integration.store.nest.com/v1/bulk/PARTNERNAME/orders/BATCH_ID  \
+--digest  \
+-u USERNAME:PASSWORD  \
+-H "Content-Type: text/json" -H "Accept: application/json"  \
+-X POST --data-binary @batch_file.json
+
+```
+
+#### html example
 
 ```html
+<h2>thing</h2>
 
-<p>What are you doing hiding there? It wasn&rsquo;t my fault, sir. Please don&rsquo;t deactivate me. I told him not to go, but he&rsquo;s faulty, malfunctioning, kept babbling on about his mission. </p>
-
-<h2 id="toc_0">Oh, no!</h2>
-
-<p>That R2 unit has always been a problem. 
-These astro-droids are getting quite out of hand. Even I can&rsquo;t understand their logic at times. How could I be so stupid? He&rsquo;s nowhere in sight. </p>
+<p>A Nest thermostat test kit, or at least one Nest thermostat that is added to the Nest Account you&rsquo;ll use for testing.</p>
 
 <ul>
-<li>Blast it! </li>
-<li>Pardon me, sir, but couldn&rsquo;t we go after him?     * It&rsquo;s too dangerous with all the Sandpeople around. 
-
-<ul>
-<li>We&rsquo;ll have to wait until morning. </li>
-</ul></li>
-<li><p>Luke, I&rsquo;m shutting the power down for the night. All right, I&rsquo;ll be there in a few minutes. </p></li>
+<li>Partial pallet orders are available (one layer, for example), for an additional charge. Contact your {{&lt; p-program-manager &gt;}} for more information.</li>
 </ul>
 
-<ol>
-<li>Boy, am I gonna get it. </li>
-<li>You know that little droid is going to cause me a lot of trouble. </li>
-<li>Oh, he excels at that, sir.</li>
-</ol>
+
 ```
+
+### json example
+```json
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
+```
+
+### test using highlight shortcode
+
+{{< highlight  "linenos=inline" >}}
+
+curl https://integration.store.nest.com/v1/bulk/PARTNERNAME/orders/BATCH_ID  \
+--digest  \
+-u USERNAME:PASSWORD  \
+-H "Content-Type: text/json" -H "Accept: application/json"  \
+-X POST --data-binary @batch_file.json
+
+{{< / highlight >}}
+
+
+
+
+{{< highlight json >}}
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
+{{< /highlight >}}
 
 
 
