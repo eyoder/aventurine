@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 
-title = "Enterprise Partner Portal"
+title = "Test docdock"
 theme = "hugo-theme-docdock"
 # themesdir = "../.."
 

@@ -130,7 +130,7 @@ I thought you said this thing was fast. Watch your mouth, kid, or you're going t
 
 This is an excerpt from another file - with this shortcode, we can duplicate chunks of copy, images, or code anywhere!
 
-{{%excerpt-include filename="test/testmorethings.md" panel="this is an excerpt, pulled from another file" /%}}
+{{%excerpt-include filename="test1/testmorethings.md" panel="this is an excerpt, pulled from another file" /%}}
 
 
 ### expand
