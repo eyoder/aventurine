@@ -1,13 +1,13 @@
 ---
-title: "test all the things"
+title: "test all the things in UK"
 description: ""
 date: "2017-04-24T18:36:24+02:00"
 weight: 3000
-tags: ["dogs","cats"]
+tags: ["gerbils","chickens"]
 ---
 
 
-Fred
+
 
 ## test more things
 
@@ -15,9 +15,11 @@ No sign of any...wait! Coming in point three five. I see them. I'm in range. Tar
 <!--more-->
 
 Keep your eyes open for those fighters! There's too much interference! Red Five, can you see them from where you are? No sign of any...wait! Coming in point three five. I see them. I'm in range. Target's coming up! Just hold them off for a few seconds.  
-[Learn more about another thing - link with relref shortcode &gt;]({{< relref "testmorethings.md" >}})
+[Learn more about another thing &gt;]({{< relref "testmorethings.uk.md" >}})
 
-[Learn more about this top level page - link with md syntax &gt;](/test)
+[Learn more about this top level page &gt;](/test)
+
+
 
 
 ## h2 heading
@@ -29,7 +31,6 @@ At the rate they're gaining... Traveling through hyperspace isn't like dusting c
 > this is a blockquote - We should be able to see it by now. Keep your eyes open for those fighters! There's too much interference! Red Five, can you see them from where you are? No sign of any...wait! Coming in point three five. I see them. I'm in range. Target's coming up! Just hold them off for a few seconds.
 
 All wings report in. Red Ten standing by. Red Seven standing by. Red Three standing by. Red Six standing by. 
-[Learn more about other things &gt;]({{ relref "testmorethings.uk.md" }}) 
 
 
 * Red Nine standing by. 
@@ -62,13 +63,27 @@ Hold tight! Switch your deflectors on. Double front!
 
 We should be able to see it by now. Keep your eyes open for those fighters! There's too much interference! Red Five, can you [see them from where you are](#standard-headings-and-paragraphs)? No sign of any...wait! Coming in point three five. I see them. I'm in range. Target's coming up! Just hold them off for a few seconds.
 
+### mermaid diagram
+
+{{<mermaid>}}
+sequenceDiagram
+    participant Customer
+    participant Partner
+    Customer->>Partner: Hello Partner, can I redeem a Thermostat offer?
+    Partner->>Aventurine: Hello Aventurine, you ready for this?
+    loop check inventory
+        Aventurine->>Aventurine: How we doing?
+    end
+    Note right of Aventurine: We have <br/>inventory...!
+    Aventurine-->>Partner: We're good to go!
+    Partner-->>Aventurine: Jolly good!
+    Aventurine->>Customer: It's on the way!
+{{< /mermaid >}}
+
 
 #### images
 
-50% width
-
-![image](http://4.bp.blogspot.com/-fNb_bQ73BtY/Ukxu3SJ5E_I/AAAAAAAAK3M/o5FX1b6FHXo/s1600/Menace+42.png?width=50%)
-
+![another image](http://2.bp.blogspot.com/_D_Z-D2tzi14/TLYPYFVWvbI/AAAAAAAAD_c/HAeHVjQvHzY/s1600/marshmallow60.png)
 
 #### alerts
 
@@ -149,102 +164,6 @@ SO. VERY. AWESOME.<br />
 SO. VERY. AWESOME.<br />
 {{% /expand%}}
 
-
-
-### test using backtick code fence {#back}
-
-should use Chroma instead of Pygments
-
-### api example
-
-```curl
-https://integration.store.nest.com/v1/bulk/PARTNERNAME/orders/BATCH_ID  \
---digest  \
--u USERNAME:PASSWORD  \
--H "Content-Type: text/json" -H "Accept: application/json"  \
--X POST --data-binary @batch_file.json
-
-```
-
-#### html example
-
-```html
-<h2>thing</h2>
-
-<p>A Nest thermostat test kit, or at least one Nest thermostat that is added to the Nest Account you&rsquo;ll use for testing.</p>
-
-<ul>
-<li>Partial pallet orders are available (one layer, for example), for an additional charge. Contact your {{&lt; p-program-manager &gt;}} for more information.</li>
-</ul>
-
-
-```
-
-### json example
-```json
-{
-    "glossary": {
-        "title": "example glossary",
-		"GlossDiv": {
-            "title": "S",
-			"GlossList": {
-                "GlossEntry": {
-                    "ID": "SGML",
-					"SortAs": "SGML",
-					"GlossTerm": "Standard Generalized Markup Language",
-					"Acronym": "SGML",
-					"Abbrev": "ISO 8879:1986",
-					"GlossDef": {
-                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
-						"GlossSeeAlso": ["GML", "XML"]
-                    },
-					"GlossSee": "markup"
-                }
-            }
-        }
-    }
-}
-```
-
-### test using highlight shortcode
-
-{{< highlight  "linenos=inline" >}}
-
-curl https://integration.store.nest.com/v1/bulk/PARTNERNAME/orders/BATCH_ID  \
---digest  \
--u USERNAME:PASSWORD  \
--H "Content-Type: text/json" -H "Accept: application/json"  \
--X POST --data-binary @batch_file.json
-
-{{< / highlight >}}
-
-
-
-
-{{< highlight json >}}
-{
-    "glossary": {
-        "title": "example glossary",
-		"GlossDiv": {
-            "title": "S",
-			"GlossList": {
-                "GlossEntry": {
-                    "ID": "SGML",
-					"SortAs": "SGML",
-					"GlossTerm": "Standard Generalized Markup Language",
-					"Acronym": "SGML",
-					"Abbrev": "ISO 8879:1986",
-					"GlossDef": {
-                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
-						"GlossSeeAlso": ["GML", "XML"]
-                    },
-					"GlossSee": "markup"
-                }
-            }
-        }
-    }
-}
-{{< /highlight >}}
 
 
 ## standard headings and paragraphs

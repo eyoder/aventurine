@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing things - North America on Aventurine North America</title>
+    <link>/test1/</link>
+    <description>Recent content in Testing things - North America on Aventurine North America</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/test1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>test all the things</title>
+      <link>/test1/testallthethings/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/test1/testallthethings/</guid>
+      <description>&lt;h2 id=&#34;test-more-things&#34;&gt;test more things&lt;/h2&gt;
+
+&lt;p&gt;No sign of any&amp;hellip;wait! Coming in point three five. I see them. I&amp;rsquo;m in range. Target&amp;rsquo;s coming up! Just hold them off for a few seconds.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>test more things</title>
+      <link>/test1/testmorethings/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/test1/testmorethings/</guid>
+      <description>&lt;p&gt;All wings report in. Red Ten standing by. Red Seven standing by. Red Three standing by. Red Six standing by.&lt;br /&gt;
+&lt;a href=&#34;/test2/testallthethings/&#34;&gt;Learn more about another thing &amp;gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/test&#34;&gt;Learn more about this top level page &amp;gt;&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

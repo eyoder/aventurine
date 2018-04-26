@@ -1,0 +1,362 @@
+/* css for Nest site */
+html {
+	font-family: "Fuller Sans",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+h1 {
+	font-family: "Akkurat",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 20px;
+    font-size: 2.0rem;
+    color: #00AFD8;
+}
+
+header {
+	height: 150px;
+    border-bottom: none;
+    color: #fff;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header h1 {
+	color: black;
+	text-align: center;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #7B858E;
+    transition: color 0.2s ease-in-out, opacity 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media (min-width: 960px)
+.logo.nest-logo {
+    top: 24px;
+}
+
+@media (min-width: 600px)
+.logo.nest-logo {
+    left: 40px;
+}
+
+.logo.nest-logo {
+    display: block;
+    position: absolute;
+    margin: 0;
+    width: 52px;
+    left: 20px;
+    z-index: 400;
+    overflow: hidden;
+ }
+
+ .logo-image {
+    margin: 0;
+    border: 0;
+    padding: 0;
+ }
+
+.navbar-nav {
+	list-style-type: none;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.navbar-nav li{
+	padding: 0 8px;
+	display: inline;
+}
+
+.post-header {
+	color: #00AFD8;
+	font-size: 1.4rem;
+    padding: 10px 0px;
+    height: auto;
+}
+  
+.post-title {
+	color: #00AFD8;
+	font-size: 1.4rem;
+    padding: 10px 0px;
+}
+
+.post-title a {
+	color: #00AFD8;
+}
+
+.post-description {
+    color: #7B858E;
+}
+
+.container {
+    padding: 20px 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content.container {
+	background-color: #e9eaee;
+	min-height: 300px;
+	width: 100%;
+}
+
+a.list-title {
+    color:#00AFD8;
+}
+
+a:visited.list-title {
+    color:#00AFD8;
+}
+
+#footer {
+	padding: 31px 0;
+    overflow: hidden;
+    color: #fff;
+    margin: 0 auto;
+    -webkit-transition: -webkit-transform 400ms ease-in-out;
+    transition: transform 400ms ease-in-out;
+}
+
+#footer a {
+	color: #3f4247;
+}
+
+#footer .container {
+    padding: 20px 50px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#footer .nav-block {
+	overflow: hidden;
+}
+
+#footer .left {
+	width: 70%;
+	float: left;
+	border: none;
+	margin: 0 -40px;
+	padding: 0 40px;
+}
+
+#footer .left .sub-nav {
+	float: left;
+	border-bottom: none;
+}
+
+ul {
+	list-style: inherit;
+}
+
+#footer .left .sub-nav li {
+    line-height: 1.2rem;
+}
+
+#footer .sub-nav li {
+    display: block;
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+
+#footer .sub-nav li {
+    display: block;
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 4rem;
+    font-family: "Fuller Sans Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #fff;
+    position: relative;
+}
+
+#footer .left .sub-nav li .sub-head {
+    cursor: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#footer .left .sub-nav li .sub-head {
+    font-family: "Fuller Sans Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#footer .left .sub-nav li ul {
+    max-height: 100%;
+    -webkit-transition: max-height 250ms ease-in-out;
+    padding: 0;
+    margin-bottom: 0;
+    max-height: 0;
+}
+
+#footer .sub-nav li ul.reveal {
+    max-height: 500px;
+    padding-bottom: 15px;
+}
+
+
+#footer .sub-nav li a {
+    display: inline;
+}
+
+#footer .right {
+	width: 30%;
+	float: right;
+}
+
+#footer .generic-signup {
+    max-width: none;
+    width: 100%;
+    clear: both;
+    margin: 0 auto 45px 0;
+    max-width: 260px;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+.generic-signup input[type="email"] {
+    border-radius: 2px;
+    margin: 0;
+    border: none;
+    font-family: "Fuller Sans",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding-left: 15px;
+
+    display: block;
+    font-size: 1.2rem;
+    width: 100%;
+    color: #3d4247;
+    padding-right: 30px;
+}
+
+input {
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+}
+
+.generic-signup button {
+    background-color: transparent;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    height: 17px;
+    width: 17px;
+    padding: 0px;
+    border: none;
+    transform: translateY(-50%);
+    overflow: visible;
+}
+
+.chevron {
+	cursor: pointer;
+}
+
+.generic-signup .secure-statement {
+	text-align: left;
+    font-size: 9px;
+    margin: 13px 0 0 0;
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+.generic-signup .message {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: none;
+    background-color: #FFA02F;
+    height: auto;
+}
+
+.generic-signup .signup-success {
+    background-color: #8ade77;
+}
+
+.nl-locale-chooser {
+    float: right;
+    position: relative;
+    width: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    top: -7px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+
+.nl-locale-chooser .locale {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    margin-left: 0;
+    max-width: 220px;
+    text-align: center;
+}
+
+/*
+#footer a {
+    color: #fff;
+    transition: opacity 0.2s ease;
+}
+*/
+
+.nl-locale-chooser .locale>li[role="menuitem"] a {
+    text-align: center;
+    font-family: "Fuller Sans Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 0.7rem;  
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.nl-locale-chooser .locale>li[role="menuitem"] a span.flag {
+    background-image: url("/images/sprites/global/sprites-d87c29fce0.png");
+    background-position: 0px -298px;
+    background-repeat: no-repeat;
+    display: block;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    top: 7px;
+    position: relative;
+    margin-right: 7px;
+    padding-right: 10px;
+    border-right: 1px solid #bbb;
+}
+
+.nl-locale-chooser .locale>li[role="menuitem"] a span.flag {
+    background-image: url("../sprites.png");
+    background-position: 0px -298px;
+    background-repeat: no-repeat;
+    display: block;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    top: 7px;
+    position: relative;
+    margin-right: 7px;
+    padding-right: 10px;
+    border-right: 1px solid #bbb;
+}
+#footer ul.legal {
+    padding-top: 10px;
+}
+
+#footer ul.legal li {
+    font-family: "Fuller Sans",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #3f4247;
+    display: inline-block;
+    border-left: 1px solid #9da6ae;
+    margin-left: 4px;
+    padding-left: 6px;
+}
+
+

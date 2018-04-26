@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Aventurine UK</title>
+    <link>/uk/tags/</link>
+    <description>Recent content in Tags on Aventurine UK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Apr 2017 18:36:24 +0200</lastBuildDate>
+    
+	<atom:link href="/uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chickens</title>
+      <link>/uk/tags/chickens/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/uk/tags/chickens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gerbils</title>
+      <link>/uk/tags/gerbils/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>/uk/tags/gerbils/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
