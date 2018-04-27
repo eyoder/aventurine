@@ -4,6 +4,8 @@ description: ""
 date: "2017-04-24T18:36:24+02:00"
 weight: 3000
 tags: ["gerbils","chickens"]
+
+
 ---
 
 
@@ -16,7 +18,11 @@ No sign of any...wait! Coming in point three five. I see them. I'm in range. Tar
 
 Keep your eyes open for those fighters! There's too much interference! Red Five, can you see them from where you are? No sign of any...wait! Coming in point three five. I see them. I'm in range. Target's coming up! Just hold them off for a few seconds.  
 [Learn more about another thing &gt;]({{< relref "testmorethings.uk.md" >}})
-
+  
+  
+[Learn more about another thing &gt;](/uk/test1/testmorethings)
+  
+  
 [Learn more about this top level page &gt;](/test)
 
 

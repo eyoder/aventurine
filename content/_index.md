@@ -3,7 +3,6 @@ title: NA test
 description: What you need to know
 date: 2017-09-01 # YYYY-MM-DD
 weight: 1
-head: <label>North America things</label>
 alwaysopen: true
 
 ---
