@@ -31,5 +31,8 @@ other = "Ups... Ser ikke ut som denne siden eksisterer."
 [Go-to-homepage]
 other = "Gå til hovedsiden"
 
-# [Edit-this-page]
-# other = "Editer"
+[Edit-this-page]
+other = "Editer"
+
+[Expand-title]
+other = "Utvid meg..."

@@ -34,5 +34,11 @@ other = "Woops. Looks like this page doesn't exist."
 [Go-to-homepage]
 other = "Vers la page d'accueil"
 
-# [Edit-this-page]
-# other = "Modifier"
+[Edit-this-page]
+other = "Modifier"
+
+[Expand-title]
+other = "Déroulez-moi..."
+
+[last-update-on]
+other = "Dernière mise à jour le "

@@ -1,20 +1,18 @@
 +++
 title = "DocDock Theme for Hugo"
 description = ""
-date = "2017-04-24T18:36:24+02:00"
-
 +++
 
 # Hugo docDock theme
 [Hugo-theme-docdock {{%icon fa-github%}}](https://github.com/vjeantet/hugo-theme-docdock) is a theme for Hugo, a fast and modern static website engine written in Go. Hugo is often used for blogs, **this theme is fully designed for documentation.**
 
-This theme is a partial porting of the [Learn theme of matcornic {{%icon fa-github%}}](https://github.com/matcornic/hugo-theme-learn).
+This theme is a partial porting of the [Learn theme of matcornic {{%icon fa-github%}}](https://github.com/matcornic/hugo-theme-learn). and its default style "flex" comes from [facette.io](https://github.com/facette)'s documentation.
 
 {{%panel%}}docDock works with a "page tree structure" to organize content : All contents are pages, which belong to other pages. [read more about this]({{%relref "content-organisation/_index.md"%}}) {{%/panel%}}
 
 ## Main features
 
-* [Search]({{%relref "search/_index.md" %}})
+* [Automatic Search]({{%relref "search/_index.md" %}})
 * **Unlimited menu levels**
 * [Generate RevealJS presentation]({{%relref "page-slide.md"%}}) from markdown (embededed or fullscreen page)
 * Automatic next/prev buttons to navigate through menu entries
@@ -28,13 +26,13 @@ This theme is a partial porting of the [Learn theme of matcornic {{%icon fa-gith
 
 
 
+Style "Flex" (default)
+
+![](style-flex.png?classes=border,shadow)
+
 Style "Original"
 
-![](https://raw.githubusercontent.com/vjeantet/hugo-theme-docdock/master/images/tn.png?width=33pc&classes=border,shadow)
-
-Style "Flex"
-
-![](style-flexfull.png?width=33pc&classes=border,shadow)
+![](style-original.png?classes=border,shadow)
 
 ## Contribute to this documentation
 Feel free to update this content, just click the **Edit this page** link displayed on top right of each page, and pullrequest it
